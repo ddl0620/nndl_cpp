@@ -28,14 +28,14 @@ git clone https://github.com/ddl0620/nndl_cpp.git
 cd nndl_cpp
 ```
 
-#### 1.1 Preparing the MNIST Dataset
+### 1.1 Preparing the MNIST Dataset
 This project uses the MNIST dataset in CSV format. If you don’t have the dataset, use the provided Python script to convert the `.pkl.gz` version:
 ```sh
 python scripts/convert_csv.py
 ```
 
 ### 2. Build the project
-Ensure you have **g++** installed, then run:
+Ensure you have **g++** and **make** installed, then run:
 ```sh
 make
 ```
@@ -45,12 +45,4 @@ make
 ./nndl_cpp
 ```
 
-## Excluding Data from Git
-The following files are ignored in version control using `.gitignore`:
-```
-data/
-data/mnist_train.csv
-data/mnist_valid.csv
-data/mnist_test.csv
-```
 
