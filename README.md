@@ -28,7 +28,7 @@ git clone https://github.com/ddl0620/nndl_cpp.git
 cd nndl_cpp
 ```
 
-## Preparing the MNIST Dataset
+### 1.1 Preparing the MNIST Dataset
 This project uses the MNIST dataset in CSV format. If you don’t have the dataset, use the provided Python script to convert the `.pkl.gz` version:
 ```sh
 python scripts/convert_csv.py
