@@ -8,6 +8,7 @@ A simple neural network built entirely from scratch in C++ using only the standa
 - Efficient backpropagation and stochastic gradient descent (SGD) for training
 - Seamless support for the MNIST handwritten digit recognition dataset
 - Pure C++ solution using only the standard library, with no external dependencies
+- 94-96% accuracy
 
 ## Project Structure
 ```
