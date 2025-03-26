@@ -1,6 +1,6 @@
 # MNIST digits recognition from scratch with C++
 
-A simple neural network built entirely from scratch in C++ using only the standard library—no NumPy, no TensorFlow, no Eigen. Just pure C++ and math.
+A simple neural network built entirely from scratch in C++ using only the standard library—no NumPy, no TensorFlow, no Eigen. Just pure C++ and math (actually I used a bit of python to process the data in the .pkl.gz format :>).
 
 ## Features
 - A fully implemented neural network from scratch in C++
