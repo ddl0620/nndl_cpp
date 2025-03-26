@@ -2,6 +2,11 @@ import pickle
 import gzip
 import pandas as pd
 
+import os
+
+# Ensure 'data' directory exists
+os.makedirs("data", exist_ok=True)
+
 # Load the MNIST dataset
 with gzip.open("data/mnist.pkl.gz", "rb") as f:
     training_data, validation_data, test_data = pickle.load(f, encoding="latin1")
